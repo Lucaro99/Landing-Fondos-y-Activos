@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background: url("/IMG/Fondos/Fondo\ Peque.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer {
+    display: none;
+  }
+  .text-1-1 {
+    font-size: 1rem;
+  }
+  .logo {
+    display: flex;
+    width: 70%;
+  }
+  .main {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 500px) {
+  body {
+    background: url("/IMG/Fondos/Fondo\ Peque.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer {
+    display: none;
+  }
+  .text-1-1 {
+    font-size: 1.5rem;
+  }
+  .logo {
+    display: flex;
+    width: 70%;
+  }
+  .main {
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 575px) {
+  body {
+    background: url("/IMG/Fondos/Fondo\ Peque.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer {
+    display: none;
+  }
+  .text-1-1 {
+    font-size: 1.5rem;
+  }
+  .logo {
+    display: flex;
+    width: 70%;
+  }
+  .main {
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 640px) {
+  body {
+    background: url("/IMG/pagina\ fondos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer {
+    display: none;
+  }
+  .text-1-1 {
+    font-size: 1.4rem;
+  }
+  .logo {
+    display: flex;
+    width: 33%;
+  }
+  .main {
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    display: flex;
+  }
+  .datos p {
+    font-size: 0.5rem;
+  }
+  .datos a {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .datos p {
+    font-size: 0.2rem;
+  }
+  .datos a {
+    font-size: 0.65rem;
+  }
+}
